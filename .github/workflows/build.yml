@@ -93,6 +93,7 @@ jobs:
           apply plugin: 'com.android.application'
           android {
             compileSdkVersion 34
+            namespace 'com.cele.planner'
             defaultConfig {
               applicationId "com.cele.planner"
               minSdkVersion 21
